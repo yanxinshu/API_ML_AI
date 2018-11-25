@@ -1,3 +1,11 @@
+item|content
+--|:--:
+Target release|2018/11/25
+Epic| 识别语音生成课堂实时字幕
+Document status|未开始
+Document owner|颜信束
+
+
 # 动机
 * 耳背、反应迟钝的同学们/*学渣*许多时候不能第一时间听到/理解老师传达的信息；学生听课效率不高，课后便忘记了上课内容。
 
