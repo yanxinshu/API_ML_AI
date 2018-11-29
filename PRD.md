@@ -40,7 +40,7 @@ Document owner|颜信束
 * 腾讯云实时语音识别API
 
 
-'''html
+'''
 # -*- coding:utf-8 -*-
 # 引用 SDK
 import RASRsdk
