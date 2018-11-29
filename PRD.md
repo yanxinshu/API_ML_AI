@@ -40,7 +40,8 @@ Document owner|颜信束
 * 腾讯云实时语音识别API
 
 
-'''python
+'''
+
 # -*- coding:utf-8 -*-
 # 引用 SDK
 import RASRsdk
@@ -48,7 +49,7 @@ import RASRsdk
 secret_key = 'kKm26uXCgLtGRWVJvKtGU0LYdWCgOvGP'
 secretid = 'AKID31NbfXbpBLJ4kGJrytc9UfgVAlGltJJ8'
 appid = '1255628450'
-
+  
 # 识别引擎 8k_0 or 16k_0
 engine_model_type = '16k_0'
 # 结果返回方式 0：同步返回 or 1：尾包返回
