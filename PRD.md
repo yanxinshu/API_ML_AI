@@ -40,12 +40,11 @@ Document owner|颜信束
 * 腾讯云实时语音识别API
 
 
-'''
+'''python
 # -*- coding:utf-8 -*-
 # 引用 SDK
 import RASRsdk
 
-# 用户需修改为自己官网的appid，secretid与sectretkey
 secret_key = 'kKm26uXCgLtGRWVJvKtGU0LYdWCgOvGP'
 secretid = 'AKID31NbfXbpBLJ4kGJrytc9UfgVAlGltJJ8'
 appid = '1255628450'
