@@ -34,12 +34,6 @@ Document owner|颜信束
 # 产品架构
 <p><img src="https://image.ipaiban.com/upload-ueditor-image-20181130-1543567717832012429.png" alt="脑图" title="" /></p>
 
-## 首页
-* 为您推荐
-## 课表
-## 上课
-* 开启字幕
-* 语言设置
 
 ## API：
 调用<p><a href="http://ai.baidu.com/tech/ocr/general">百度API-通用文字识别</a></p>
