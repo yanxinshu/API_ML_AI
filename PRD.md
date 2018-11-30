@@ -1,7 +1,7 @@
 item|content
 --|:--:
 Target release|2018/11/25
-Epic| 拍拍看
+Epic| 易录APP
 Document status|进行中
 Document owner|颜信束
 
@@ -26,8 +26,7 @@ Document owner|颜信束
 文字识别3|企业收集报销单，需要员工把相关内容录入到电脑上进行存档、报销，员工只能一张一张输入|很重要|文字识别方便直接录入
 
 # 产品功能
-* 将照片内的文字内容
-* 自动保存音频与匹配字幕
+* 将图片内的文字内容
 
 # 产品架构
 ## 首页
@@ -37,8 +36,11 @@ Document owner|颜信束
 * 开启字幕
 * 语言设置
 
+## API：
+调用百度API-通用文字识别
+<p><a href="http://ai.baidu.com/tech/ocr/general">百度API-通用文字识别</a></p>
+
 # 产品需求
 * 腾讯云实时语音识别API
-
 
 
