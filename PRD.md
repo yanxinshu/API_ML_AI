@@ -39,5 +39,48 @@ Document owner|颜信束
 调用<p><a href="http://ai.baidu.com/tech/ocr/general">百度API-通用文字识别</a></p>
 调用<p><a href="http://ai.baidu.com/tech/nlp/text_corrector">百度API-文本纠错</a></p>
 
-
-
+'''python
+{
+	"errno": 0,
+	"msg": "success",
+	"data": {
+		"log_id": "3167391544171532238",
+		"direction": 0,
+		"words_result_num": 4,
+		"words_result": [
+			{
+				"words": "图像质量检测",
+				"probability": {
+					"variance": 0.000002,
+					"average": 0.999218,
+					"min": 0.996165
+				}
+			},
+			{
+				"words": "图像美观度与清晰度识别,检测图像色彩、构图以及",
+				"probability": {
+					"variance": 0.000166,
+					"average": 0.99366,
+					"min": 0.957218
+				}
+			},
+			{
+				"words": "是否存在模糊、失焦、噪点、锯齿、马賽克等情况",
+				"probability": {
+					"variance": 0.003443,
+					"average": 0.985294,
+					"min": 0.716799
+				}
+			},
+			{
+				"words": "立即使用",
+				"probability": {
+					"variance": 0,
+					"average": 0.999662,
+					"min": 0.999385
+				}
+			}
+		]
+	}
+}
+'''
