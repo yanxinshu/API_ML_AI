@@ -39,7 +39,7 @@ Document owner|颜信束
 调用<p><a href="http://ai.baidu.com/tech/ocr/general">百度API-通用文字识别</a></p>
 调用<p><a href="http://ai.baidu.com/tech/nlp/text_corrector">百度API-文本纠错</a></p>
 
-···pyhton
+···python
 {
 	"errno": 0,
 	"msg": "success",
