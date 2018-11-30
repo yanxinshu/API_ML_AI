@@ -32,7 +32,7 @@ Document owner|颜信束
 * 把图片内的文字内容进行提取
 
 # 产品架构
-<p><img src="https://image.ipaiban.com/upload-ueditor-image-20181130-1543567531969054675.png" alt="脑图" title="" /></p>
+<p><img src="https://image.ipaiban.com/upload-ueditor-image-20181130-1543567717832012429.png" alt="脑图" title="" /></p>
 
 ## 首页
 * 为您推荐
