@@ -96,22 +96,25 @@ Document owner|颜信束
 	}
 }
 ```
+#### 输出示例
 ``` python
-HTTP/1.1 200 OK
-x-bce-request-id: 73c4e74c-3101-4a00-bf44-fe246959c05e
-Cache-Control: no-cache
-Server: BWS
-Date: Tue, 18 Oct 2016 02:21:01 GMT
-Content-Type: application/json;charset=UTF-8
 {
-"log_id": 2471272194, 
-"words_result_num": 2,
-"words_result": 
-	[
-		{"words": " TSINGTAO"}, 
-		{"words": "青島睥酒"}
-	]
-}
+        'Action' : 'LexicalCheck',
+        'Nonce' : 345122,
+        'Region' : 'sz',
+        'SecretId' : 'AKIDz8krbsJ5yKBZQpn74WFkmLPx3gnPhESA',
+        'Timestamp' : 1408704141,
+        'text': '睡交吃饭'
+    }
+```
+``` python
+{
+        "code": 0,
+        "message": "",
+        "conf": 1.3,
+        "text": "睡觉吃饭",
+        "text_annotate": "睡觉吃饭"
+    }
 ```
 ## 使用比较分析
 * 华为云通用文字识别图像规格要求高，上传照片经常失败，而且URL只能用华为OBS授权的图片，普通百度上的图片URL用不了
