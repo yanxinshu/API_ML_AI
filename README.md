@@ -3,7 +3,7 @@
 item|content
 --|:--:
 Target release|2018/11/25
-Epic| 易录APP
+Epic| 更便捷录入文字
 Document status|进行中
 Document owner|颜信束
 
