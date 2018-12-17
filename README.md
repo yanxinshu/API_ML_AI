@@ -43,7 +43,7 @@ Document owner|颜信束
 
 ## API：
 调用<p><a href="http://ai.baidu.com/tech/ocr/general">百度API-通用文字识别</a></p>
-调用<p><a href="http://ai.baidu.com/tech/nlp/text_corrector">百度API-文本纠错</a></p>
+调用<p><a href="http://wiki.open.qq.com/wiki/%E7%BA%A0%E9%94%99API">腾讯开放平台-文本纠错</a></p>
 
 ```python
 {
@@ -90,3 +90,23 @@ Document owner|颜信束
 	}
 }
 ```
+``` python
+HTTP/1.1 200 OK
+x-bce-request-id: 73c4e74c-3101-4a00-bf44-fe246959c05e
+Cache-Control: no-cache
+Server: BWS
+Date: Tue, 18 Oct 2016 02:21:01 GMT
+Content-Type: application/json;charset=UTF-8
+{
+"log_id": 2471272194, 
+"words_result_num": 2,
+"words_result": 
+	[
+		{"words": " TSINGTAO"}, 
+		{"words": "青島睥酒"}
+	]
+}
+```
+## 使用比较分析
+* 阿里云文字识别API只有反垃圾；华为云与百度相似，但是要付钱
+* 百度PI文本纠错邀测期
