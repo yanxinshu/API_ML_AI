@@ -119,7 +119,7 @@ Document owner|颜信束
     }
 ```
 ### 使用比较分析
- 华为云通用文字识别图像规格要求高，上传照片经常失败，而且URL只能用华为OBS授权的图片，普通百度上的图片URL用不了
+ 华为云通用文字识别图像规格要求高，上传照片经常失败，且URL只能用华为OBS授权的图片，普通百度上的图片URL无法输出
 
 ### 风险报告
 ![price](https://raw.githubusercontent.com/yanxinshu/API_ML_AI/master/much.PNG)
