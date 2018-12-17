@@ -96,7 +96,7 @@ Document owner|颜信束
 	}
 }
 ```
-#### 输出示例
+#### 文本纠错示例
 ``` python
 {
         'Action' : 'LexicalCheck',
