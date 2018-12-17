@@ -8,20 +8,20 @@ Document status|进行中
 Document owner|颜信束
 
 
-## 动机
+### 动机
 * 用户需要提取照片中的内容，不再需要逐一输入，可以快捷拍照取词。
 * 若图片不清晰，提取的文字内容可能会有误，可进一步进行文本纠错
 
-## 目标
+### 目标
 * 方便提取文字
 
-## 用户
+### 用户
 * 需要进行文本录入的人群
 
-## 用户痛点：
+### 用户痛点：
 * 进行文本录入太麻烦 要逐一输入
 
-## 解决问题
+### 解决问题
 * 进行文本录入可以方便快捷选取文字
 
 ## 用户需求
@@ -32,19 +32,19 @@ Document owner|颜信束
 文字识别3|企业收集报销单，需要员工把相关内容录入到电脑上进行存档、报销，员工只能一张一张输入|很重要|文字识别方便直接录入
 
 
-## 产品架构
+### 产品架构
 <p><img src="https://image.ipaiban.com/upload-ueditor-image-20181130-1543567717832012429.png" alt="脑图" title="" /></p>
 
-## 产品原型
+### 产品原型
 <p><img src="https://image.ipaiban.com/upload-ueditor-image-20181201-1543628678892097680.png" alt="原型" title="" /></p>
 
 
 
-## API：
+### API：
 调用<p><a href="http://ai.baidu.com/tech/ocr/general">百度API-通用文字识别</a></p>
 调用<p><a href="http://wiki.open.qq.com/wiki/%E7%BA%A0%E9%94%99API">腾讯开放平台-文本纠错</a></p>
 
-## 输入/输出
+### 输入/输出
 
 #### 文字识别
 * 输入：图片
@@ -119,7 +119,7 @@ Document owner|颜信束
     }
 ```
 ### 使用比较分析
-* 华为云通用文字识别图像规格要求高，上传照片经常失败，而且URL只能用华为OBS授权的图片，普通百度上的图片URL用不了
+ 华为云通用文字识别图像规格要求高，上传照片经常失败，而且URL只能用华为OBS授权的图片，普通百度上的图片URL用不了
 
 ### 风险报告
 ![price](https://raw.githubusercontent.com/yanxinshu/API_ML_AI/master/much.PNG)
