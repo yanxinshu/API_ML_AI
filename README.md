@@ -33,10 +33,10 @@ Document owner|颜信束
 
 
 ### 产品架构
-<p><img src="https://image.ipaiban.com/upload-ueditor-image-20181130-1543567717832012429.png" alt="脑图" title="" /></p>
+![yuanxing](https://github.com/yanxinshu/API_ML_AI/blob/master/yuanxing.png?raw=true)
 
 ### 产品原型
-<p><img src="https://image.ipaiban.com/upload-ueditor-image-20181201-1543628678892097680.png" alt="原型" title="" /></p>
+![jiagou](https://github.com/yanxinshu/API_ML_AI/blob/master/jiagou.png?raw=true)
 
 
 
