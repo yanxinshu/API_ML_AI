@@ -33,10 +33,10 @@ Document owner|颜信束
 
 
 ### 产品架构
-![yuanxing](https://github.com/yanxinshu/API_ML_AI/blob/master/yuanxing.png?raw=true)
+![yuanxing](https://github.com/yanxinshu/API_ML_AI/blob/master/jiagou.png?raw=true)
 
 ### 产品原型
-![jiagou](https://github.com/yanxinshu/API_ML_AI/blob/master/jiagou.png?raw=true)
+![jiagou](https://github.com/yanxinshu/API_ML_AI/blob/master/yuanxing.png?raw=true)
 
 
 
@@ -98,29 +98,4 @@ Document owner|颜信束
 #### 文本纠错
 * 输入：文本
 * 输出：纠正后文本
-#### 文本纠错示例
-``` python
-{
-        'Action' : 'LexicalCheck',
-        'Nonce' : 345122,
-        'Region' : 'sz',
-        'SecretId' : 'AKIDz8krbsJ5yKBZQpn74WFkmLPx3gnPhESA',
-        'Timestamp' : 1408704141,
-        'text': '睡交吃饭'
-    }
-```
-``` python
-{
-        "code": 0,
-        "message": "",
-        "conf": 1.3,
-        "text": "睡觉吃饭",
-        "text_annotate": "睡觉吃饭"
-    }
-```
-### 使用比较分析
- 华为云通用文字识别图像规格要求高，上传照片经常失败，且URL只能用华为OBS授权的图片，普通百度上的图片URL无法输出
-
-### 风险报告
-![price](https://raw.githubusercontent.com/yanxinshu/API_ML_AI/master/much.PNG)
-<p><a href="https://cloud.baidu.com/calculator.html#/ocr/price">百度云</a></p>
+#### 文本纠错
