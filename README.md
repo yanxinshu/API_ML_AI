@@ -42,7 +42,9 @@ Document owner|颜信束
 ### 产品原型
 ![jiagou](https://github.com/yanxinshu/API_ML_AI/blob/master/yuanxing.png?raw=true)
 
-
+### 竞品分析
+* 万能拍照识别APP
+* 全能扫描王：能
 
 ### API：
 调用<p><a href="http://ai.baidu.com/tech/ocr/general">百度API-通用文字识别</a></p>
