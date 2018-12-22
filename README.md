@@ -43,8 +43,8 @@ Document owner|颜信束
 ![jiagou](https://github.com/yanxinshu/API_ML_AI/blob/master/yuanxing.png?raw=true)
 
 ### 竞品分析
-* 万能拍照识别APP
-* 全能扫描王：能
+* 万能拍照识别APP：内含多种识别功能（没有纠错、没有编辑、没有文件夹）
+* 全能扫描王：高清扫描、智能管理、批注（没有纠错与编辑功能）
 
 ### API：
 调用<p><a href="http://ai.baidu.com/tech/ocr/general">百度API-通用文字识别</a></p>
