@@ -104,3 +104,26 @@ Document owner|颜信束
 * 输入：文本
 * 输出：纠正后文本
 #### 文本纠错
+``` python
+{
+    "text": "百度是一家人工只能公司"
+}
+```
+``` python
+{
+    "log_id": 6770395607901559829,
+    "item": {
+        "vec_fragment": [
+            {
+                "ori_frag": "只能",
+                "begin_pos": 21,
+                "correct_frag": "智能",
+                "end_pos": 27
+            }
+        ],
+        "score": 0.875169,
+        "correct_query": "百度是一家人工智能公司"
+    },
+    "text": "百度是一家人工只能公司"
+}
+```
