@@ -42,15 +42,16 @@ Document owner|颜信束
 ### 产品原型
 ![jiagou](https://github.com/yanxinshu/API_ML_AI/blob/master/yuanxing.png?raw=true)
 
-### 竞品分析
+#### 竞品分析
 * 万能拍照识别APP：内含多种识别功能（没有纠错、没有编辑、没有文件夹）
 * 全能扫描王：高清扫描、智能管理、批注（没有纠错与编辑功能）
 * 各系统，APP自带的文字识别插件，识别效果差
 ![jieguo](https://github.com/yanxinshu/API_ML_AI/blob/master/jieguo.jpg?raw=true)
-### 加值宣言
- 在与市面现有的文字识别同样功能基础上，加入了文本纠错
-
-
+#### 加值宣言
+ 在与市面现有的文字识别同样功能基础上，加入纠错，以弥补当前文字识别的缺陷
+#### 核心价值
+* 通过拍照/上传图片的方式进行文字识别，得到文本
+* 将得到的文本进行纠错
 ### API：
 调用<p><a href="http://ai.baidu.com/tech/ocr/general">百度API-通用文字识别</a></p>
 调用<p><a href="http://ai.baidu.com/docs#/NLP-API/741e48da">首选：百度API-文本纠错</a></p>
