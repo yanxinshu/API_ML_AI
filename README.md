@@ -45,6 +45,11 @@ Document owner|颜信束
 ### 竞品分析
 * 万能拍照识别APP：内含多种识别功能（没有纠错、没有编辑、没有文件夹）
 * 全能扫描王：高清扫描、智能管理、批注（没有纠错与编辑功能）
+* 各系统，APP自带的文字识别插件，识别效果差
+![jieguo](https://github.com/yanxinshu/API_ML_AI/blob/master/jieguo.jpg?raw=true)
+### 加值宣言
+ 在与市面现有的文字识别同样功能基础上，加入了文本纠错
+
 
 ### API：
 调用<p><a href="http://ai.baidu.com/tech/ocr/general">百度API-通用文字识别</a></p>
@@ -129,3 +134,9 @@ Document owner|颜信束
     "text": "百度是一家人工只能公司"
 }
 ```
+### 使用比较分析
+ 华为云通用文字识别图像规格要求高，上传照片经常失败，且URL只能用华为OBS授权的图片，普通百度上的图片URL无法输出，百度通用文字识别API准确度较高
+
+### 使用后风险报告
+![price](https://raw.githubusercontent.com/yanxinshu/API_ML_AI/master/much.PNG)
+<p><a href="https://cloud.baidu.com/calculator.html#/ocr/price">百度云</a></p>
