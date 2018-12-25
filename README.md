@@ -56,6 +56,7 @@ Document owner|颜信束
 * 对于清晰，字体易辩的图片，识别准确率高
 * 对于清晰度不高，识别成功的概率高于上述竞品，识别结果准确率会降低
 * 有无法识别手写体的情况
+![hand](https://github.com/yanxinshu/API_ML_AI/blob/master/hand.png?raw=true)
 ### API：
 调用<p><a href="http://ai.baidu.com/tech/ocr/general">百度API-通用文字识别</a></p>
 调用<p><a href="http://ai.baidu.com/docs#/NLP-API/741e48da">首选：百度API-文本纠错</a></p>
