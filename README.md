@@ -38,7 +38,7 @@ Document owner|颜信束
 
 
 ### 产品架构
-![jiagou]()
+![jiagou](https://github.com/yanxinshu/API_ML_AI/blob/master/jg.png?raw=true)
 
 ### 产品原型
 ![yuanxing](https://github.com/yanxinshu/API_ML_AI/blob/master/yuanxing.png?raw=true)
