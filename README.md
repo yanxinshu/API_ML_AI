@@ -37,10 +37,10 @@ Document owner|颜信束
 
 
 ### 产品架构
-![yuanxing]()
+![jiagou]()
 
 ### 产品原型
-![jiagou](https://github.com/yanxinshu/API_ML_AI/blob/master/yuanxing.png?raw=true)
+![yuanxing](https://github.com/yanxinshu/API_ML_AI/blob/master/yuanxing.png?raw=true)
 
 #### 竞品分析
 * 万能拍照识别APP：内含多种识别功能（没有纠错、没有编辑、没有文件夹）
