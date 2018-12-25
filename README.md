@@ -34,6 +34,7 @@ Document owner|颜信束
 文字识别|学生上课时用手机拍ppt内容，回到宿舍想录入电脑进行整理，但是只能一个一个字打进去|很重要|直接提取文字进行归纳整理
 文本纠错|用软件提取了文字后有些形近字被识别错误，用户需要每一个错字都自己改，很麻烦|很重要|识别错误的片段，给出正确的文本结果
 文字编辑|用软件提取文字后，文字没有分隔，要通过打开其他软件进行排版|一般|文字识别方便直接录入
+敏感词识别|当图像中文字繁杂，需判断能否采用图像中的文字直接发布|一般|
 
 
 ### 产品架构
@@ -61,6 +62,7 @@ Document owner|颜信束
 调用<p><a href="http://ai.baidu.com/tech/ocr/general">百度API-通用文字识别</a></p>
 调用<p><a href="http://ai.baidu.com/docs#/NLP-API/741e48da">首选：百度API-文本纠错</a></p>
 调用<p><a href="http://wiki.open.qq.com/wiki/%E7%BA%A0%E9%94%99API">次选：腾讯开放平台-纠错API</a></p>
+调用<p><a href="http://ai.baidu.com/tech/imagecensoring">百度API-图像审核</a></p>
 
 ### 输入/输出
 
