@@ -173,6 +173,7 @@ Document owner|颜信束
 
 ### 使用后风险报告
 ![price](https://raw.githubusercontent.com/yanxinshu/API_ML_AI/master/much.PNG)
+* 与腾讯云相比，百度文字识别API性价比高
 <p><a href="https://cloud.baidu.com/calculator.html#/ocr/price">百度云</a></p>
 
 ### 产品下载
