@@ -174,3 +174,6 @@ Document owner|颜信束
 ### 使用后风险报告
 ![price](https://raw.githubusercontent.com/yanxinshu/API_ML_AI/master/much.PNG)
 <p><a href="https://cloud.baidu.com/calculator.html#/ocr/price">百度云</a></p>
+
+### 产品下载
+<p><a href="https://github.com/yanxinshu/API_ML_AI/blob/master/%E6%98%93%E5%BD%95APP.rp">产品原型</a></p>
